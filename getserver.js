@@ -14,7 +14,7 @@ if (serverUrl.endsWith('/')) serverUrl = serverUrl.slice(0, -1);
 
 let received = false;
 let reqOpts = {
-	hostname: 'play.pokemonshowdown.com',
+	hostname: 'ember.psim.us',
 	port: 80,
 	path: '/crossdomain.php?host=' + serverUrl + '&path=',
 	method: 'GET'
